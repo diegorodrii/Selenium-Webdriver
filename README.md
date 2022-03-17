@@ -24,11 +24,22 @@ Con este extracto de código entramos a la URL que insertemos en el .get("").
 5. Con el método findElement() podemos encontrar buscar elementos de la página e interactuar con ellos. Por ejemplo, intentemos iniciar sesión en GitHub.
 Primeramente, tendremos que buscar el elemento que corresponde a la casilla de usuario.
 ![image](https://user-images.githubusercontent.com/91873618/158810254-a697df15-3650-4d56-bf7d-b8da6b1eefb4.png)
-Reflejaremos en el código la id de la casilla de usuario.
+Reflejaremos en el código la id de la casilla de usuario. Con sendKeys("") podemos enviar el valor que deseamos.
+
 ![image](https://user-images.githubusercontent.com/91873618/158810482-5e8e5f24-7a16-4f0f-9f41-b70f246b3e90.png)
+
 Haremos igual con la casilla contraseña.
+
 ![image](https://user-images.githubusercontent.com/91873618/158810794-f12b1525-f8c4-42bf-9edb-e697a9fb58fe.png)
+![image](https://user-images.githubusercontent.com/91873618/158811108-ccc74183-d2de-4fb8-8642-20371b449a77.png)
+
 Finalmente, sólo queda buscar la id de botón de logeo. 
 ![image](https://user-images.githubusercontent.com/91873618/158810988-f076f12f-6671-4bc1-938d-ae30f0742ce7.png)
+
+No tiene una id para el botón, así que utilizaremos el nombre de su clase. También utilizaremos el método .click para hacer click.
+![image](https://user-images.githubusercontent.com/91873618/158811365-fe65c6be-db62-4432-8da9-f098800dfbed.png)
+
+Se realizará la sesión de logeo en el momento que se haga Run.
+![image](https://user-images.githubusercontent.com/91873618/158811783-ad7957be-c655-43c6-b3be-0f79a9f8e716.png)
 
 
