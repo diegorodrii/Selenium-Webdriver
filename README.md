@@ -65,3 +65,10 @@ Buscaremos con la herramienta Inspeccionar de la web el tagname, los atributos y
 
 
 El resultado es el mismo que el del punto 5.
+
+**7. Encontrar elementos de la página e interactuar con ellos con CSSSelector**
+
+Podemos también utilizar CSSSelector para encontrar elementos e interactuar con ellos. Los id de los elementos se nombran con "#" y los class con ".".
+Es muy simple.
+
+![image](https://user-images.githubusercontent.com/91873618/158824643-35170d0e-5bef-4b22-81c6-85c3698ba687.png)
