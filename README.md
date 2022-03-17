@@ -20,3 +20,15 @@ Con este extracto de código entramos a la URL que insertemos en el .get("").
 
 4. Con .close() podemos cerrar el navegador.
 ![image](https://user-images.githubusercontent.com/91873618/158802117-210e8fb5-1d36-48cb-827a-4501745e410b.png)
+
+5. Con el método findElement() podemos encontrar buscar elementos de la página e interactuar con ellos. Por ejemplo, intentemos iniciar sesión en GitHub.
+Primeramente, tendremos que buscar el elemento que corresponde a la casilla de usuario.
+![image](https://user-images.githubusercontent.com/91873618/158810254-a697df15-3650-4d56-bf7d-b8da6b1eefb4.png)
+Reflejaremos en el código la id de la casilla de usuario.
+![image](https://user-images.githubusercontent.com/91873618/158810482-5e8e5f24-7a16-4f0f-9f41-b70f246b3e90.png)
+Haremos igual con la casilla contraseña.
+![image](https://user-images.githubusercontent.com/91873618/158810794-f12b1525-f8c4-42bf-9edb-e697a9fb58fe.png)
+Finalmente, sólo queda buscar la id de botón de logeo. 
+![image](https://user-images.githubusercontent.com/91873618/158810988-f076f12f-6671-4bc1-938d-ae30f0742ce7.png)
+
+
