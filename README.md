@@ -1,6 +1,8 @@
 # Selenium-Webdriver
 
-En este repositorio guardaré el primer curso de Selenium que estoy realizando en la empresa Mayoral. 
+En este repositorio guardaré el primer curso de Selenium que estoy realizando en la empresa Mayoral.
+
+Selenium es un entorno de pruebas de software para aplicaicones basadas en la web. Permite grabar, editar y depurar casos de prueba, que podrán ser ejecutados de forma automática
 
 **1. Acceder a URL** 
 
