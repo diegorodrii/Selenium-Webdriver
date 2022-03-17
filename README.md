@@ -14,3 +14,6 @@ Con este extracto de código entramos a la URL que insertemos en el .get("").
 
 ![image](https://user-images.githubusercontent.com/91873618/158798329-61ee9d35-1e65-4b8c-8c9f-ead4182ee8a7.png)
 
+3. Declaramos el objeto chromeOptions. Con .setHeadless(true) se puede llevar a cabo el código java sin necesidad de que se abra la URL. Tendremos también que meter el objeto como argumento en el objeto driver.
+
+![image](https://user-images.githubusercontent.com/91873618/158801688-6eb0d907-0219-492f-8f2f-16f417bcf907.png)
