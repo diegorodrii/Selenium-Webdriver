@@ -17,3 +17,6 @@ Con este extracto de código entramos a la URL que insertemos en el .get("").
 3. Declaramos el objeto chromeOptions. Con .setHeadless(true) se puede llevar a cabo el código java sin necesidad de que se abra la URL. Tendremos también que meter el objeto como argumento en el objeto driver.
 
 ![image](https://user-images.githubusercontent.com/91873618/158801688-6eb0d907-0219-492f-8f2f-16f417bcf907.png)
+
+4. Con .close() podemos cerrar el navegador.
+![image](https://user-images.githubusercontent.com/91873618/158802117-210e8fb5-1d36-48cb-827a-4501745e410b.png)
