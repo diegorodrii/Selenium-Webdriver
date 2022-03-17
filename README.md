@@ -4,6 +4,9 @@ En este repositorio guardaré el primer curso de Selenium que estoy realizando e
 
 Selenium es un entorno de pruebas de software para aplicaicones basadas en la web. Permite grabar, editar y depurar casos de prueba, que podrán ser ejecutados de forma automática
 
+![image](https://user-images.githubusercontent.com/91873618/158829119-e39d8ed2-195e-4daa-8f06-7b149c858aaa.png)
+
+
 **1. Acceder a URL** 
 
 Una vez hemos creado el proyecto e instalado Selenium en Eclipse (al igual que todos los JAR y complementos que necesitamos para su correcto uso), empezamos con la parte práctica. La Programación Orientada a Objetos es muy importante para trabajar con Selenium. 
