@@ -1,6 +1,6 @@
 # Selenium-Webdriver
 
-**En este repositorio guardaré el primer curso de Selenium que estoy realizando en la empresa Mayoral. **
+En este repositorio guardaré el primer curso de Selenium que estoy realizando en la empresa Mayoral. 
 
 **1. Una vez hemos creado el proyecto e instalado Selenium en Eclipse (al igual que todos los JAR y complementos que necesitamos para su correcto uso), empezamos con la parte práctica. La Programación Orientada a Objetos es muy importante para trabajar con Selenium. 
 Con este extracto de código entramos a la URL que insertemos en el .get("").**
