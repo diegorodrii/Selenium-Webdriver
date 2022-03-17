@@ -2,26 +2,32 @@
 
 En este repositorio guardaré el primer curso de Selenium que estoy realizando en la empresa Mayoral. 
 
-1. Una vez hemos creado el proyecto e instalado Selenium en Eclipse (al igual que todos los JAR y complementos que necesitamos para su correcto uso), empezamos con la parte práctica. La Programación Orientada a Objetos es muy importante para trabajar con Selenium. 
+**1. Acceder a URL** 
+Una vez hemos creado el proyecto e instalado Selenium en Eclipse (al igual que todos los JAR y complementos que necesitamos para su correcto uso), empezamos con la parte práctica. La Programación Orientada a Objetos es muy importante para trabajar con Selenium. 
 Con este extracto de código entramos a la URL que insertemos en el .get("").
 
 ![image](https://user-images.githubusercontent.com/91873618/158797017-4f88e999-7529-4559-a7e7-f5b9dcb1d52e.png)
 
 ![image](https://user-images.githubusercontent.com/91873618/158797076-f07bb3a6-d505-4fbb-9e19-8e5a0ad3abda.png)
 
-2. La página a la que nos redirecciona, podemos maximizarla automáticamente, al igual que obtener su título, siendo éste pintado en la consola de Eclipse.
+**2. Maximizar navegador**
+La página a la que nos redirecciona, podemos maximizarla automáticamente, al igual que obtener su título, siendo éste pintado en la consola de Eclipse
 ![image](https://user-images.githubusercontent.com/91873618/158798134-37dce832-7b83-401b-9099-7b5625ce497b.png)
 
 ![image](https://user-images.githubusercontent.com/91873618/158798329-61ee9d35-1e65-4b8c-8c9f-ead4182ee8a7.png)
 
-3. Declaramos el objeto chromeOptions. Con .setHeadless(true) se puede llevar a cabo el código java sin necesidad de que se abra la URL. Tendremos también que meter el objeto como argumento en el objeto driver.
+**3. Obtener título** 
+Declaramos el objeto chromeOptions. Con .setHeadless(true) se puede llevar a cabo el código java sin necesidad de que se abra la URL. Tendremos también que meter el objeto como argumento en el objeto driver.
 
 ![image](https://user-images.githubusercontent.com/91873618/158801688-6eb0d907-0219-492f-8f2f-16f417bcf907.png)
 
-4. Con .close() podemos cerrar el navegador.
+**4. Cerrar navegador**
+Con .close() podemos cerrar el navegador.
 ![image](https://user-images.githubusercontent.com/91873618/158802117-210e8fb5-1d36-48cb-827a-4501745e410b.png)
-F
-5. Con el método findElement() podemos encontrar buscar elementos de la página e interactuar con ellos. Por ejemplo, intentemos iniciar sesión en GitHub.
+
+**5.Encontrar elementos de la página e interactuar con ellos con Id y Class**
+
+Con el método findElement() podemos encontrar buscar elementos de la página e interactuar con ellos. Por ejemplo, intentemos iniciar sesión en GitHub.
 Primeramente, tendremos que buscar el elemento que corresponde a la casilla de usuario.
 ![image](https://user-images.githubusercontent.com/91873618/158810254-a697df15-3650-4d56-bf7d-b8da6b1eefb4.png)
 Reflejaremos en el código la id de la casilla de usuario. Con sendKeys("") podemos enviar el valor que deseamos.
@@ -41,5 +47,8 @@ No tiene una id para el botón, así que utilizaremos el nombre de su clase. Tam
 
 Se realizará la sesión de logeo en el momento que se haga Run.
 ![image](https://user-images.githubusercontent.com/91873618/158811783-ad7957be-c655-43c6-b3be-0f79a9f8e716.png)
+
+**6. Encontrar elementos de la página e interactuar con ellos con XPath**
+
 
 
